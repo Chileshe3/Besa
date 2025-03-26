@@ -1,0 +1,30 @@
+.home-section {
+  background: linear-gradient(135deg, #282c34 0%, #1a1d24 100%);
+  color: white;
+}
+
+.cta-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-btn, .secondary-btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.primary-btn {
+  background: #61dafb;
+  border: none;
+  color: #282c34;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid #61dafb;
+  color: #61dafb;
+}
